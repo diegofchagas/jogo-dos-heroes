@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../homem de ferro/style-perguntas.css">
+    <title>Jogo de Perguntas Ciclope (Marvel)</title>
+
+    <script>
+        function escolha(){
+            var decide = prompt("Qual das alternativas esta correta A,B,C,D?")
+        
+        if(decide == "b") {
+            return location = 'proxima.html'
+        } else if (decide =="a" || decide == "c" ||decide == "d"){
+            return location = "home.html"
+        } else{
+            escolha()
+        }
+    }
+
+     //se acerta coloca um alert acertou proxima pergunta e no final mandar ele para próxima pagina
+        
+
+    </script>
+</head>
+    <body>
+    <header>
+    
+        <h1>Bem vindo ao mundo do Cicople !</h1>
+    </header>
+
+    <main>
+
+        <img src="./image/foto1.jpg" alt="">
+
+        <div class="sobre">
+
+            <p> Scott Summers, mais conhecido por, Ciclope é um personagem americano pertencente ao Universo Marvel Comics. Líder da equipe conhecida como X-Men, foi criado por Stan Lee e Jack Kirby, sua estreia nos quadrinhos foi em Uncanny X-Men #1.
+                 </p>
+
+            <p> Neste jogo você ira responder um quiz sobre o Ciclope , um heroi lider dos x-men e assim você ajuda ele a continuar evoulindo seu poder! </p>
+
+
+
+            <p class="paragrafo"> Principais Habilidades:</p>
+            
+            <ul>
+                <li class="habilidades">Soltar energia pelos olhos</li>
+                <li> Sentido sobre-humano</li>
+                <li> Perito em pilotar jatos</li>
+                <li> Um mestre estrategista e tático</li>
+                <li> Treinamento em artes marciais</li>
+
+                </ul>
+        </div>
+
+        <hr>
+        <section>
+
+        <h3>Responda todas as perguntas corretamente e avançe para a próxima fase!</h3>
+
+    
+        <p> Embarcando na visão de raios vermelhos do Ciclope vamos para a primeira secção de perguntas!</p>
+
+        <p class="perguntas">1. Porque o Ciclope tem que usar os oculos ?</p>
+
+        <ul>
+
+        <li>a) Por causa do raios que solta pelos olhos</li>  
+        <li>b) por não enxerga direito</li> 
+        <li>c) por causa do</li>  
+        <li>d) para ficar bonito </li>  
+
+        </ul>
+        
+
+        </section>
+        <br>
+        <input onclick= "escolha()" id="fase2" type="button" value="responder">
+
+
+        <section>
+
+        <p class="perguntas">2. Quem recrutou o jovem Scott Summers?</p> 
+
+        <ul>
+
+        <li>a) Charlie  Xavier</li>  
+        <li>b) Wolwerine</li> 
+        <li>c) Magneto </li>  
+        <li>d) Jean grey</li>  
+
+        </ul>
+        
+
+        </section>
+        <br>
+
+        <input onclick= "escolhaB()" id="fase2" type="button" value="responder">
+
+        <section>
+
+        <p class="perguntas">3. Qual maior inimigo de ciclope?</p> 
+
+        <ul>
+
+        <li>a) Dentes-de-Sabre</li>  
+        <li>b) Mística</li> 
+        <li>c) Sr Sinistro</li>  
+        <li>d) William stryker</li>  
+
+        </ul>
+        
+
+        </section>
+
+        <br>
+        <input onclick= "escolhaC()" id="fase2" type="button" value="responder">
+
+        </main>
+        <script src="./resposta1.js"></script>
+        </body>
+
+        <footer>
+        <h3>Desenvolvido por <a href="https://github.com/diegofchagas"  target="blank">@diegofchagas</a></h3>
+        
+        </footer>
+
+
+        
+
+</html>

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Oswald:wght@300&family=Roboto:ital,wght@1,300;1,700&display=swap');
+
+
+body,ul,li,a {
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+body{
+  
+ background: rgb(140,64,38);
+background: linear-gradient(222deg, rgba(140,64,38,1) 7%, rgba(0,5,10,1) 44%, rgba(140,64,38,1) 69%); 
+/* background-color: rgb(0, 0, 0); */
+}
+.capa-acertou{
+    background-image: url('./imagens/capa-final.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+
+}
+
+.capa-gamer-over{
+    background-image: url('./imagens/gamer-over.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+}
+
+.titulo-gamer-over {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 350px;
+}
+
+h1,h3,h2{
+    text-align: center;
+    color: #FFF
+ 
+}
+
+h3{
+    color: #FFF;
+}
+
+ul{
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 100px;
+    
+   
+}
+
+ul li{
+    margin-left: 10px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+span{
+    color:#FFF;
+    
+}
+
+
+.falcao-img{
+    width:240px ;
+}
+
+ul li a img{
+
+    border-radius: 10%;
+    width: 100%;
+    height: 350px;
+  
+}
+
+ul li:hover{
+    transform: scale(1.2);
+}
+
+
+
+ul li img:hover{
+    border: 2px solid #FFF;
+    border-radius: 10%;
+    
+    
+}
+
+
+footer {
+    /* background-color: brown; */
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    padding-top: 30px;
+   
+}
+footer a{
+    text-align: center;
+    color: black;
+    color: #FFF;
+}
+
+@media(max-width:760px) {
+    ul{
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+
+    ul li{
+        margin-bottom: 10px;
+    }
+
+    h1 ,h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+    
+   
+
+    }

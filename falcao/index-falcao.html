@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../homem de ferro/style-perguntas.css">
+    <title>Jogo de Perguntas Falcão (Marvel)</title>
+
+    <script>
+        function escolha(){
+            var decide = prompt("Qual das alternativas esta correta A,B,C,D?")
+        
+        if(decide == "b") {
+            return location = 'proxima.html'
+        } else if (decide =="a" || decide == "c" ||decide == "d"){
+            return location = "home.html"
+        } else{
+            escolha()
+        }
+    }
+
+     //se acerta coloca um alert acertou proxima pergunta e no final mandar ele para próxima pagina
+        
+
+    </script>
+</head>
+    <body>
+    <header>
+    
+        <h1>Bem vindo ao mundo do Falcão!</h1>
+    </header>
+
+
+        <img  src="./image/foto1.jpg" alt="">
+    <main>
+        <div class="sobre">
+
+            <p>Falcão é um personagem fictício das histórias em quadrinhos publicadas pela Marvel Comics. Criado por
+                Stan Lee e Gene Colan. Sua primeira aparição foi em Captain America #117. Apesar de estar sempre disposto a trabalhar em dupla com Capitão América, Falcão também participou do supergrupo de heróis chamado Vingadores.
+                 </p>
+
+            <p> Neste jogo você ajudara o falcao entrar para os vingadores, responda as perguntas corretamente e ajude o Falcao a ser um Avenger!</p>
+
+
+
+            <p class="paragrafo"> Principais Habilidades:</p>
+            
+            <ul>
+                <li class="habilidades">Treinamento de Combate</li>
+                <li> Acrobata Fenomenal</li>
+                <li> Armas e utensílios</li>
+                <li>Asas mecânicas e tecnológicas</li>
+                <li>Elo telepático com aves</li>
+                <li>Voar</li>
+
+                </ul>
+        </div>
+
+        <hr>
+        <section>
+
+        <h3>Responda todas as perguntas corretamente e avançe para a próxima fase</h3>
+
+    
+        <p> Embarcando nas asas do Falcão vamos para a primeira secção de perguntas!</p>
+
+        <p class="perguntas">1. Quam deu as asas para o falcão?</p>
+
+        <ul>
+
+        <li>a) Pantera Negra</li>  
+        <li>b) Tony Stark </li> 
+        <li>c) Shield </li>  
+        <li>d) Exercito Americano </li>  
+
+        </ul>
+        
+
+        </section>
+        <br>
+        <input onclick= "escolha()" id="fase2" type="button" value="responder">
+
+
+        <section>
+
+        <p class="perguntas">2. Qual foi a primeira missao do falcão??</p> 
+
+        <ul>
+
+        <li>a) Encontrar o Capitao America</li>  
+        <li>b) Capturar o lider Terrorista Batroc</li> 
+        <li>c) Aprender a voar </li>  
+        <li>d) Entrar para a shield</li>  
+
+        </ul>
+        
+
+        </section>
+        <br>
+
+        <input onclick= "escolhaB()" id="fase2" type="button" value="responder">
+
+        <section>
+
+        <p class="perguntas">3. Qual é a indetidade secreta do falcão??</p> 
+
+        <ul>
+
+        <li>a) Sam Wilson</li>  
+        <li>b) Clint Barton</li> 
+        <li>c) Bruce Banner</li>  
+        <li>d) Buck</li>  
+
+        </ul>
+        
+
+        </section>
+
+        <br>
+        <input onclick= "escolhaC()" id="fase2" type="button" value="responder">
+
+        </main>
+        
+        <script src="./reposta1.js"></script>
+        
+        </body>
+
+            <footer>
+                <h3>Desenvolvido por <a href="https://github.com/diegofchagas"  target="blank">@diegofchagas</a></h3>
+            
+            </footer>
+</html>
